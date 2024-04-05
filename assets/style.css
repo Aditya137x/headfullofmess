@@ -5,6 +5,8 @@
   --color-lightGrey: #d2d6dd;
   --color-grey: #3f4144;
   --color-error: #d74747;
+  --color-blue: #43b1f5;
+  --color-yellow: #f8e433;
   --color-success: #28bd14;
   --grid-maxWidth: 120rem;
   --grid-gutter: 2rem;
@@ -219,6 +221,14 @@ button:active:not(:disabled) {
 .text-error {
   color: var(--color-error) !important;
 }
+.text-blue {
+    color: var(--color-blue) !important;
+  }
+
+  .text-yellow {
+    color: var(--color-yellow) !important;
+  }
+
 .text-success {
   color: var(--color-success) !important;
 }
